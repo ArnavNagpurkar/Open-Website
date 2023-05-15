@@ -20,9 +20,6 @@ while True:
         print("Thanks for using website Opener!")
         break
 
-    elif str in start:
-        print("Invalid Input, Try again!")
-
     else:
         print("Invalid Input, Try again!")
 
