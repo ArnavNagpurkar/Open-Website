@@ -10,8 +10,8 @@ while True:
 
         else:
             splitSite = url.split(".")
-            webName = splitSite[0]
-            webExtension = splitSite[1]
+            webName = url[0:-4]
+            webExtension = splitSite[-1]
             webbrowser.open(f"https://www.{webName}.{webExtension}/")
             print(f"Opening {webName.title()}")
 
