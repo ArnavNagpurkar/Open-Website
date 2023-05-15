@@ -13,8 +13,8 @@ while True:
             webName = splitSite[0]
             webExtension = splitSite[1]
             webbrowser.open(f"https://www.{webName}.{webExtension}/")
-            print(f"Opening {webName}")
-            break
+            print(f"Opening {webName.title()}")
+
 
     elif start == 0:
         print("Thanks for using website Opener!")
